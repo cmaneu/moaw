@@ -11,6 +11,15 @@
 
 	// Configure tool-specific properties.
 	"customizations": {
+		"codespaces": {
+		      "repositories": {
+			"cmaneu/powerbi-sql-sample": {
+			  "permissions": {
+			    "permissions": "read-all"
+			  }
+			}
+		      }
+		    },
 		// Configure properties specific to VS Code.
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
